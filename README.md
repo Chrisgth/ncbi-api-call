@@ -1,3 +1,5 @@
+To install the Biopython dependency run pip install -r ./requirements.txt
+
 To run the script 'blast_api_call.py' open up any CLI tool on your computer and navigate to the directory of the project.
 
 Once you have done so, run the command `python blast_api_call.py`, the command requires you to input a DNA
@@ -16,4 +18,3 @@ After the BLAST API call has been completed, a zipfile will be created with JSON
 this is the data that is used to return hits via the CLI, if this data is needed to be used for debugging
 purposes, the blast_sequence function call can be omitted for this sole reason, the function call
 is denoted by a comment.
-
