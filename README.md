@@ -1,4 +1,4 @@
-To install the Biopython dependency run pip install -r ./requirements.txt
+To install the Biopython dependency run `pip install -r ./requirements.txt`
 
 To run the script 'blast_api_call.py' open up any CLI tool on your computer and navigate to the directory of the project.
 
