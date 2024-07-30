@@ -5,7 +5,7 @@ To run the script 'blast_api_call.py' open up any CLI tool on your computer and 
 Once you have done so, run the command `python blast_api_call.py`, the command requires you to input a DNA
 sequence either via the CLI or by inputting a file name. Examples being:
 `python blast_api_call.py -f .\test_sequence_1.txt`
-`python blast_api_call.py -f GACTCATTGATGCTATGATGTT`
+`python blast_api_call.py -s GACTCATTGATGCTATGATGTT`
 The process can take up to several minutes, if the API returns a CPU exceeded error, shorten
 the DNA sequence length.
 
